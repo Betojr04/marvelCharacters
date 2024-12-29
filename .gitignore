@@ -1,0 +1,27 @@
+# Node.js / React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Python / Flask
+server/venv/
+server/*.pyc
+server/__pycache__/
+server/*.log
+server/.env
+server/.DS_Store
+
+# General
+*.swp
+*.swo
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.log
