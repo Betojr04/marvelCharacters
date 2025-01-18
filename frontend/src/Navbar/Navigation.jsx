@@ -3,14 +3,14 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import Nav from 'react-bootstrap/Nav';
 import "./Navigation.css";
-import Offcanvas from 'react-bootstrap/Offcanvas'
+import Offcanvas from 'react-bootstrap/Offcanvas';
 
 const Navigation = () => {
   return (
     <>
       <Navbar bg="light" expand="lg" >
         <Container className="ms-auto">
-          <Navbar.Brand href="#">Marvel Heros</Navbar.Brand>
+          <Navbar.Brand href="/">Marvel Heros</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Offcanvas id="offcanvasnavbar"
           aria-labelledby="offcanvasNavbarLabel"
