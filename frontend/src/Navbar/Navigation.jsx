@@ -22,10 +22,9 @@ const Navigation = () => {
           </Offcanvas.Header>
           <Offcanvas.Body>
           <Nav className="ms-auto">
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#">Home</Nav.Link>
-            <Nav.Link href="#">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/characters">Characters</Nav.Link>
+            <Nav.Link href="/create-character">Add Character</Nav.Link>
           </Nav>
           </Offcanvas.Body>
           </Navbar.Offcanvas>

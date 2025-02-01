@@ -1,15 +1,10 @@
 .card {
     height: 350px;
-    /* Ensures all cards are the same height */
 }
 
 .card-img {
     width: 100%;
-    /* Makes the image responsive */
     height: 200px;
-    /* Fixed height for consistency */
     object-fit: contain;
-    /* Ensures the entire image is visible */
     background-color: #f8f9fa;
-    /* Optional: Adds a light background to fill empty space */
 }
